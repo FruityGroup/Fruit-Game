@@ -57,7 +57,10 @@
     <Compile Include="Assets\CycleJam\CycleJamInitializer.cs" />
     <Compile Include="Assets\CycleJam\CycleManager.cs" />
     <Compile Include="Assets\CycleJam\Singleton.cs" />
+    <Compile Include="Assets\G5\Scripts\Bouncer.cs" />
+    <Compile Include="Assets\G5\Scripts\Fruit.cs" />
     <Compile Include="Assets\G5\Scripts\FruitSpawner.cs" />
+    <Compile Include="Assets\G5\Scripts\Player.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>
