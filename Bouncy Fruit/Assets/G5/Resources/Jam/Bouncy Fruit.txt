@@ -1,0 +1,10 @@
+	Jam Entry
+1.05
+	Team Name
+Team Fruit
+	Entry Name
+Bouncy Fruit
+	Entry Identifier
+G5
+	Scenes Needed:
+level1

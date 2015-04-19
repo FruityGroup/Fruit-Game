@@ -1,0 +1,11 @@
+\\banner.main.ad.rit.edu\students\sxt5244\IGMProfile\Documents\Fruit-Game\Bouncy Fruit\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+\\banner.main.ad.rit.edu\students\sxt5244\IGMProfile\Documents\Fruit-Game\Bouncy Fruit\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+\\banner.main.ad.rit.edu\students\sxt5244\IGMProfile\Documents\Fruit-Game\Bouncy Fruit\Temp\UnityVS_bin\Debug\UnityEditor.dll
+\\banner.main.ad.rit.edu\students\sxt5244\IGMProfile\Documents\Fruit-Game\Bouncy Fruit\Temp\UnityVS_bin\Debug\UnityEngine.dll
+\\banner.main.ad.rit.edu\students\sxt5244\IGMProfile\Documents\Fruit-Game\Bouncy Fruit\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+\\banner.main.ad.rit.edu\students\sxt5244\IGMProfile\Documents\Fruit-Game\Bouncy Fruit\Temp\UnityVS_bin\Debug\UnityEngine.xml
+\\banner.main.ad.rit.edu\students\sxt5244\IGMProfile\Documents\Fruit-Game\Bouncy Fruit\Temp\UnityVS_bin\Debug\UnityEditor.xml
+\\banner.main.ad.rit.edu\students\sxt5244\IGMProfile\Documents\Fruit-Game\Bouncy Fruit\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+\\banner.main.ad.rit.edu\students\sxt5244\IGMProfile\Documents\Fruit-Game\Bouncy Fruit\obj\Debug\UnityVS.Bouncy Fruit.CSharp.csprojResolveAssemblyReference.cache
+\\banner.main.ad.rit.edu\students\sxt5244\IGMProfile\Documents\Fruit-Game\Bouncy Fruit\obj\Debug\Assembly-CSharp.dll
+\\banner.main.ad.rit.edu\students\sxt5244\IGMProfile\Documents\Fruit-Game\Bouncy Fruit\obj\Debug\Assembly-CSharp.pdb

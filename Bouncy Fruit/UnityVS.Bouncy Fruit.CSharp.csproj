@@ -60,7 +60,12 @@
     <Compile Include="Assets\G5\Scripts\Bouncer.cs" />
     <Compile Include="Assets\G5\Scripts\Fruit.cs" />
     <Compile Include="Assets\G5\Scripts\FruitSpawner.cs" />
-    <Compile Include="Assets\G5\Scripts\Player.cs" />
+    <Compile Include="Assets\G5\Scripts\PlayerControl.cs" />
+    <Compile Include="Assets\G5\Scripts\ground.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\G5\Resources\Jam\Bouncy Fruit.txt" />
+    <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>
