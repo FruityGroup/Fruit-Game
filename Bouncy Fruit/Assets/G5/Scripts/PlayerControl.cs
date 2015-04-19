@@ -1,10 +1,11 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using UnityEngine;using System.Collections;
 
+[System.Serializable]
 public class PlayerControl : MonoBehaviour {
 	public Animator anim;
     private Vector3 scale;
-    private int[] count;
+    public int[] count;
+	private float last_axis = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -15,17 +16,18 @@ public class PlayerControl : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		float axis = Input.GetAxis ("Horizontal");
-		if (axis>0) {
+
+		if (axis>0 && axis-last_axis >=0) {
 			// add left force
-            Vector2 newTransform = new Vector2(this.transform.position.x + 0.1f, this.transform.position.y);
+            Vector2 newTransform = new Vector2(this.transform.position.x + 0.25f, this.transform.position.y);
             this.transform.position = newTransform;
 			anim.SetInteger("Direction", 1);
 			anim.SetBool("Moving",true);
             gameObject.transform.localScale = new Vector3(scale.x, scale.y,scale.z);
 		}
-		else if(axis<0) {
+		else if(axis<0 && axis-last_axis <=0) {
 			// add right force
-            Vector2 newTransform = new Vector2(this.transform.position.x - 0.1f, this.transform.position.y);
+            Vector2 newTransform = new Vector2(this.transform.position.x - 0.25f, this.transform.position.y);
             this.transform.position = newTransform;
 			anim.SetInteger("Direction", 0);
 			anim.SetBool("Moving",true);
@@ -34,6 +36,7 @@ public class PlayerControl : MonoBehaviour {
 		else {
 			anim.SetBool("Moving",false);
 		}
+		last_axis = axis;
 	}
     void OnTriggerEnter2D(Collider2D col)
     {
